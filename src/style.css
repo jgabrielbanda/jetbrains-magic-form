@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body {
+    background-color: aliceblue;
+}
+nav {
+    font-size: 25px;
+    background-color: cornflowerblue;
+    margin-bottom: 10px;
+}
+
+nav a {
+    height: 100%;
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 0px 10px;
+}
+
+nav a:hover {
+    background-color: darkblue;
+}
+
+form {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    max-width: 550px;
+}
+
+
+form div label {
+    font-size: 12px;
+}
+
+form div input {
+    font-size: 14px;
+    height: 30px;
+}
+
+#submit-button {
+    font-weight: bold;
+    width: 220px;
+    align-self: center;
+    margin-top: 10px;
+    background-color: cornflowerblue;
+    color: white;
+    height: 35px;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.submit-history-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);
+}
+
+.submit-history-card label {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.delete-button {
+    margin-top: 20px;
+    width: 300px;
+    height: 25px;
+    align-self: center;
+    background-color: brown;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    font-weight: bold;
+}
+
+.delete-button:hover {
+    height: 27px;
+    width: 310px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+}
